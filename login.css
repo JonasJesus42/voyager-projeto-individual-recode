@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@700&family=Shippori+Antique&display=swap');
+:root {
+    --form-second-color: #edf2f7; 
+    --form-second-color-text: #718096;
+    --form-color-text: #31314f;
+    --principal-color: #4c6fff; 
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Shippori Antique', sans-serif;
+}
+#conteudo{
+    display: flex;
+}
+body{
+    overflow: hidden;
+}
+
+section{
+    width: 99vw;
+    height: 100vh;
+}
+
+#box-login{
+    width: 450px;
+    height: 600px;
+    margin: 10px auto;
+    
+}
+#autentication{
+    margin-left: auto;
+    margin-right: auto;  
+    display: flex; 
+    justify-content: center;
+}
+
+button{
+    width: 99%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.logologin{
+    width: 50px;
+    background-color: var(--form-second-color);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.div-input{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.div-input label{
+    margin-left: 30px;
+}
+.div-input input{
+   padding: 0 0 0 20px;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    border: none;
+    background-color:var(--form-second-color) ;
+}
+
+
+#btn-logar{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 20px; 
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: var(--principal-color);
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.div-checkbox{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Fira Sans';
+    color: var(--form-color-text);
+}
+
+.div-checkbox input{
+    border-radius: 5px; 
+    flex: none;
+    min-width: 24px;
+    min-height: 24px;
+    cursor: pointer;
+
+    vertical-align: middle;
+}
+
+.div-checkbox a{
+    color: var(--principal-color);
+}
+
+#login h4{
+    font-size: .75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color: var(--form-second-color-text);
+
+}
+h4::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: var(--form-second-color);
+    margin: 0 auto;
+}
+h4::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: var(--form-second-color);
+    margin: 0 auto;
+}
+.h1-top{
+    font-family: monospace;
+    height: 30px;
+    width: 300px;
+    font-size: 1.5rem;
+    display: flex;
+    margin: auto;
+    text-align: initial;
+    align-items: center;
+    justify-content: center;
+    color: var(--form-color-text);
+}
+#banner{
+    overflow: hidden;
+}
+
+#banner img{
+    width: 140%;
+}
+
+.segundo{
+    height: 200px;
+}

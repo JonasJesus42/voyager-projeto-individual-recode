@@ -1,0 +1,66 @@
+:root {
+    --form-second-color: #edf2f7; 
+    --form-second-color-text: #718096;
+    --form-color-text: #31314f;
+    --principal-color: #4c6fff; 
+}
+
+#login{
+    background-color: var(--principal-color);
+}
+.area-menu{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+ 
+}
+header{
+    background-color: #FFFFFF;
+    width: 99vw;
+    height: 100px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+li{
+    margin: 20px;
+    list-style: none;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+nav a{
+    color: gray;
+    margin-left: 10px;
+ text-decoration: none;
+}
+#menu li:hover,#suporte:hover{
+    border-bottom: 2px solid #fe7a15;
+}
+nav img{
+    vertical-align: middle;
+}
+
+#singin{
+    border: 2px solid var(--principal-color);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    color: var(--principal-color);
+}
+#singin:hover{
+    background-color: var(--principal-color);
+    color: #FFFFFF;
+}
+#logo{
+    width: 100px;
+}
+#login{
+    background-color: #FFFFFF;
+}
