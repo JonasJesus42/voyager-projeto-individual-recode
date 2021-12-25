@@ -19,7 +19,7 @@
 }
 
 body {
-    overflow: hidden;
+
 }
 
 section {
@@ -168,6 +168,14 @@ h4::after {
     overflow: hidden;
     background-image: url(/assets/cmb_no_deserto.png);
     background-size: cover;
+}
+.mostrar{
+    transition: 1s;
+    height: 300px;
+ }
+.esconder{
+     transition: 1s;
+     height: 0px;
 }
 
 @media (max-width: 1040px) {

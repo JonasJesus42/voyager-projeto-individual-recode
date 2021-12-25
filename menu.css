@@ -23,14 +23,14 @@ header{
     height: 100px;
     
 }
-nav{
+header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
-li{
+header li{
     margin: 20px;
     list-style: none;
     padding-bottom: 10px;
@@ -77,10 +77,43 @@ nav img{
 
 .menu-hamburger img{
     margin: 10px;
+    cursor: pointer;
+}
+.menu-lateral{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: #31314f;
+    top: 65px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.menu-lateral li{
+    margin: 20px;
+    list-style: none;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+.mostrar{
+    transition: 1s;
+    width: 300px;
+ }
+.esconder{
+     transition: 1s;
+     width: 0px;
 }
 
 @media (max-width: 900px) {
     .area-menu{
+        display: none;
+    }
+}
+@media (min-width: 900px) {
+    .menu-lateral{
         display: none;
     }
 }
