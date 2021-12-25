@@ -31,7 +31,7 @@ section {
     width: 25vw;
     height: 30vh;
     min-width: 400px;
-    margin: 10vh auto;
+    margin: 4vh auto;
 
 }
 
@@ -131,7 +131,6 @@ button {
     align-items: center;
     margin: 5px;
     color: var(--form-second-color-text);
-
 }
 
 h4::before {
@@ -174,5 +173,28 @@ h4::after {
 @media (max-width: 1040px) {
     #banner{
         display: none;
+    }
+    #login h4 {
+        font-size: 1.2vw;
+    }
+    .div-checkbox input {
+        min-width: 1vw;
+        min-height: 1vw;
+    }
+    
+    .div-checkbox a {
+        color: var(--principal-color);
+    }
+}
+@media (max-width: 650px){
+    #login h4 {
+        font-size: 2vw;
+    }
+    .div-checkbox  {
+        font-size: 2vw;
+    }
+    
+    .div-checkbox a {
+        color: var(--principal-color);
     }
 }
