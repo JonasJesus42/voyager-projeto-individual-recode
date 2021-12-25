@@ -64,9 +64,23 @@ nav img{
 #login{
     background-color: #FFFFFF;
 }
+/*menu para  telas pequenas*/
+.menu-hamburger{
+    display:flex;
+    max-width: 1200px;
+    margin: auto;
+    height: 50px;
+    border-bottom: 1px solid #718096;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-hamburger img{
+    margin: 10px;
+}
 
 @media (max-width: 900px) {
-    #banner{
+    .area-menu{
         display: none;
     }
 }
