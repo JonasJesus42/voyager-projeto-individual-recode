@@ -64,3 +64,9 @@ nav img{
 #login{
     background-color: #FFFFFF;
 }
+
+@media (max-width: 900px) {
+    #banner{
+        display: none;
+    }
+}

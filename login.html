@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Voyage</title>
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="menu.css">
 </head>
+
 <body>
     <header>
         <div class="area-menu">
             <img src="/assets/Logo.svg" id="logo">
             <nav id="menu">
-                <li><img src="/assets/point.png"><a href="/index.html"> Locais</a></li>
-                <li><img src="/assets/avião.png"><a href="#">Voos</a></li>
-                <li><img src="/assets/hotel.png"><a href="#">Hoteis</a></li>
-                <li><img src="/assets/raio.png"><a href="#">Atividades</a></li>
+                <li><img src="/assets/icons/point.png"><a href="/index.html"> Locais</a></li>
+                <li><img src="/assets/icons/avião.png"><a href="#">Voos</a></li>
+                <li><img src="/assets/icons/hotel.png"><a href="#">Hoteis</a></li>
+                <li><img src="/assets/icons/raio.png"><a href="#">Atividades</a></li>
             </nav>
             <nav>
                 <li id="suporte"><a href="#">Suporte</a></li>
@@ -26,42 +28,47 @@
     </header>
     <section id="conteudo">
         <section id="banner">
-            <img src="/assets/Image 2.png" alt="">
+
         </section>
         <section id="login">
             <div id="box-login">
                 <form method="post" action="">
-                <div class="top">
-                    <div class="h1-top" >
-                        <h1>Faça o Seu login</h1>
+                    <div class="top">
+                        <div class="h1-top">
+                            <h1>Faça o Seu login</h1>
+                        </div>
+                        <div id="autentication">
+                            <img class="logologin" src="/assets/icons_social/google.png" alt=""> <img class="logologin"
+                                src="/assets/icons_social/facebook.png" alt=""> <img class="logologin"
+                                src="/assets/icons_social/logotipo-da-apple.png" alt="">
+                        </div>
+                        <h4>ou logue pelo seu email</h4>
                     </div>
-                    <div id="autentication">
-                        <img class="logologin" src="/assets/google.png" alt=""> <img class="logologin" src="/assets/facebook.png" alt=""> <img class="logologin" src="/assets/logotipo-da-apple.png" alt="">
+                    <div class="div-input">
+                        <label for="">E-mail
+                            <input class="inputlogin" type="email" name="E-mail" id="email"
+                                placeholder="exemplo@gmail.com">
+                        </label>
                     </div>
-                    <h4>ou logue pelo seu email</h4>
-                </div>    
-                <div class="div-input">
-                    <label for="">E-mail
-                        <input class="inputlogin" type="email" name="E-mail" id="email"  placeholder="exemplo@gmail.com"> 
-                    </label> 
-                </div>
-                <div class="div-input">
-                    <label for="">Senha
-                        <input class="inputloguin" type="password" name="senha" id="password" placeholder="Sua senha">
-                    </label> 
-                </div>
-                <div class="div-checkbox">
-                    <label for="">
-                    <input type="checkbox"  id="check-remenber">
-                        Lembrar da senha</label>
-                    <a>Esqueci a Senha</a>
-                </div>
-                <div> 
-                    <input type="submit" value="Logar" id="btn-logar"/> 
-                </div>
-            </form>
+                    <div class="div-input">
+                        <label for="">Senha
+                            <input class="inputloguin" type="password" name="senha" id="password"
+                                placeholder="Sua senha">
+                        </label>
+                    </div>
+                    <div class="div-checkbox">
+                        <label for="">
+                            <input type="checkbox" id="check-remenber">
+                            Lembrar da senha</label>
+                        <a>Esqueci a Senha</a>
+                    </div>
+                    <div>
+                        <input type="submit" value="Logar" id="btn-logar" />
+                    </div>
+                </form>
             </div>
         </section>
     </section>
 </body>
+
 </html>

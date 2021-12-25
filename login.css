@@ -1,51 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@700&family=Shippori+Antique&display=swap');
+
 :root {
-    --form-second-color: #edf2f7; 
+    --form-second-color: #edf2f7;
     --form-second-color-text: #718096;
     --form-color-text: #31314f;
-    --principal-color: #4c6fff; 
-  }
+    --principal-color: #4c6fff;
+}
 
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: 'Shippori Antique', sans-serif;
 }
-#conteudo{
+
+#conteudo {
     display: flex;
 }
-body{
+
+body {
     overflow: hidden;
 }
 
-section{
+section {
     width: 99vw;
     height: 100vh;
 }
 
-#box-login{
-    width: 450px;
-    height: 600px;
-    margin: 10px auto;
-    
+#box-login {
+    width: 25vw;
+    height: 30vh;
+    min-width: 400px;
+    margin: 10vh auto;
+
 }
-#autentication{
+
+#autentication {
     margin-left: auto;
-    margin-right: auto;  
-    display: flex; 
+    margin-right: auto;
+    display: flex;
     justify-content: center;
 }
 
-button{
+button {
     width: 99%;
     height: 50px;
     border-radius: 10px;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
 
-.logologin{
+.logologin {
     width: 50px;
     background-color: var(--form-second-color);
     margin: 20px;
@@ -55,30 +60,37 @@ button{
 }
 
 
-.div-input{
+.div-input {
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 20px auto;
+
 }
-.div-input label{
-    margin-left: 30px;
+
+.div-input label {
+    width: 20vw;
+    margin: auto;
+    min-width: 300px;
 }
-.div-input input{
-   padding: 0 0 0 20px;
+
+.div-input input {
+    padding: 0 0 0 20px;
     height: 50px;
-    width: 90%;
+
+    max-width: 90%;
+    min-width: 100%;
     border-radius: 10px;
     margin: auto;
     border: none;
-    background-color:var(--form-second-color) ;
+    background-color: var(--form-second-color);
 }
 
 
-#btn-logar{
+#btn-logar {
     width: 90%;
     height: 50px;
     border-radius: 10px;
-    margin-left: 20px; 
+    margin-left: 20px;
     font-family: monospace;
     font-size: 1rem;
     background-color: var(--principal-color);
@@ -87,33 +99,33 @@ button{
     color: #FFFFFF;
 }
 
-.div-checkbox{
+.div-checkbox {
     display: flex;
     height: 60px;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1vw;
     font-family: 'Fira Sans';
     color: var(--form-color-text);
 }
 
-.div-checkbox input{
-    border-radius: 5px; 
+.div-checkbox input {
+    border-radius: 5px;
     flex: none;
-    min-width: 24px;
-    min-height: 24px;
+    min-width: 1vw;
+    min-height: 1vw;
     cursor: pointer;
 
     vertical-align: middle;
 }
 
-.div-checkbox a{
+.div-checkbox a {
     color: var(--principal-color);
 }
 
-#login h4{
-    font-size: .75rem;
+#login h4 {
+    font-size: 1vw;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
@@ -121,7 +133,8 @@ button{
     color: var(--form-second-color-text);
 
 }
-h4::before{
+
+h4::before {
     content: '';
     display: block;
     width: 100px;
@@ -129,7 +142,8 @@ h4::before{
     background: var(--form-second-color);
     margin: 0 auto;
 }
-h4::after{
+
+h4::after {
     content: '';
     display: block;
     width: 100px;
@@ -137,7 +151,8 @@ h4::after{
     background: var(--form-second-color);
     margin: 0 auto;
 }
-.h1-top{
+
+.h1-top {
     font-family: monospace;
     height: 30px;
     width: 300px;
@@ -149,14 +164,15 @@ h4::after{
     justify-content: center;
     color: var(--form-color-text);
 }
-#banner{
+
+#banner {
     overflow: hidden;
+    background-image: url(/assets/cmb_no_deserto.png);
+    background-size: cover;
 }
 
-#banner img{
-    width: 140%;
-}
-
-.segundo{
-    height: 200px;
+@media (max-width: 1040px) {
+    #banner{
+        display: none;
+    }
 }
