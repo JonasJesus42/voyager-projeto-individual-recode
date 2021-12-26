@@ -70,7 +70,7 @@ nav img{
     max-width: 1200px;
     margin: auto;
     height: 65px;
-    border-bottom: 1px solid #718096;
+    border-bottom: 1px solid #d3d7dd;
     align-items: center;
     justify-content: space-between;
 }
@@ -113,6 +113,10 @@ nav img{
     }
 }
 @media (min-width: 900px) {
+    .menu-hamburger
+    {
+        display: none;
+    }
     .menu-lateral{
         display: none;
     }
